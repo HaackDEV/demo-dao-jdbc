@@ -1,18 +1,15 @@
 package model.dao.impl;
 
 import db.DB;
-import db.DbException;
+import db.exception.DbException;
 import model.dao.DepartmentDao;
 import model.entities.Department;
-import model.entities.Seller;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
-    import db.DbIntegrityException;
+import db.exception.DbIntegrityException;
 
 public class DepartmentDaoJDBC implements DepartmentDao {
 

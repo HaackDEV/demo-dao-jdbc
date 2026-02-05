@@ -1,7 +1,7 @@
 package application;
 
 import db.DB;
-import db.DbIntegrityException;
+import db.exception.DbIntegrityException;
 import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
