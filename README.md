@@ -6,7 +6,7 @@ Este projeto é uma aplicação de console desenvolvida como parte do curso de J
 
 -   **Padrão de Projeto DAO:** Separação da lógica de acesso a dados da lógica de negócios, resultando em um código mais organizado e de fácil manutenção.
 -   **DAO Factory:** Utilização de uma fábrica para abstrair a criação das implementações do DAO, facilitando a troca da fonte de dados no futuro.
--   **Java Database Connectivity (JDBC):** Conexão e execução de queries em um banco de dados.
+-   **Java Database Connectivity (JDBC):** Conexão e execução de consultas em um banco de dados.
 -   **Gerenciamento de Recursos:** Tratamento correto de `Connection`, `Statement` e `ResultSet` para evitar vazamento de recursos.
 -   **Mapeamento Objeto-Relacional (Básico):** Conversão de registros de tabelas do banco de dados em objetos Java.
 
