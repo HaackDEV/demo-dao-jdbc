@@ -1,56 +1,57 @@
-<<<<<<< HEAD
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Arquivos de credenciais e configuração local
+# IMPORTANTE: Garante que sua senha do banco não seja enviada para o repositório
+db.properties
 
-### Eclipse ###
-.apt_generated
+# Logs
+*.log
+
+# Arquivos gerados pela JVM em caso de crash
+hs_err_pid*
+replay_pid*
+
+# Arquivos de build e output
+/out/
+/build/
+/target/
+/bin/
+
+# Arquivos compilados Java
+*.class
+
+# Pacotes e arquivos gerados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos e pastas de configuração de IDEs
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+.factorypath
 .springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# Arquivos do sistema operacional
+# Mac
 .DS_Store
-=======
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
->>>>>>> 7717acac6cc286be700e3e4ce41069bb7e1adc76
+# Windows
+Thumbs.db

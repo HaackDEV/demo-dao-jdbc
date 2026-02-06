@@ -48,7 +48,11 @@ public class Program {
         System.out.println("Updated!");
 
         System.out.println("\n=== TEST 6: seller delete ===");
-        sellerDao.deleteById(12);
-        System.out.println("Deleted!");
+        try {
+            sellerDao.deleteById(12);
+            System.out.println("Deleted!");
+        } catch (db.exception.DbException e) {
+            System.out.println("Delete failed: " + e.getMessage());
+        }
     }
 }
